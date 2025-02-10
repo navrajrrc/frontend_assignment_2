@@ -2,21 +2,21 @@ body {
     background-color: white;
     font-family: 'Lato', sans-serif;
     text-align: center;
-    color: #49c2b6;
+    color: #2C5C59; 
 }
 
 h1, h2, h3 {
     font-family: "Poppins", sans-serif;
-    color: #2E8B57;
+    color: #206C48; 
 }
 
 a {
-    color: #ADD8E6;
+    color: #c3dce5; 
     text-decoration: none;
 }
 
 a:hover {
-    color: #2E8B57;
+    color: #2E8B57; 
 }
 
 body {
@@ -26,7 +26,7 @@ body {
     justify-content: center;
     min-height: 100vh;
     font-family: sans-serif;
-    background-color: white; 
+    background-color: white;
 }
 
 header {
@@ -54,7 +54,8 @@ footer {
     text-align: center;
     padding: 10px;
     width: 100%;
-    background-color: rgb(33, 46, 39); 
+    background-color: #1a1a1a; 
+    color: #fff; 
 }
 
 body {
@@ -62,42 +63,42 @@ body {
     font-size: 16px;
     font-weight: 300;
 }
+
 h1, h2, h3 {
     font-weight: 600;
 }
+
 p {
     font-weight: 400;
 }
 
-body {
-    font-family: Arial, sans-serif;
-    font-size: 16px;
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
 @media (max-width: 600px) {
     body {
-      font-size: 14px; 
+        font-size: 14px;
     }
     .navigation {
-      flex-direction: column; 
+        flex-direction: column;
     }
     .footer {
-      font-size: 12px; 
+        font-size: 12px;
+    }
+    .content {
+        padding: 10px;
+    }
+    h1 {
+        font-size: 18px; 
     }
 }
 
 @media (max-width: 1024px) and (min-width: 601px) {
     .navigation {
-      font-size: 14px; 
+        font-size: 14px;
     }
 }
-  
+
 @media (min-width: 1025px) {
     .navigation {
-      font-size: 16px; 
+        font-size: 16px;
     }
 }
 
@@ -106,14 +107,5 @@ body {
     justify-content: space-around;
     flex-direction: column;
     align-items: center;
-}
-
-@media (max-width: 600px) {
-    .content {
-      padding: 10px;
-    }
-    h1 {
-      font-size: 18px; 
-    }
 }
 
