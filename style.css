@@ -2,7 +2,7 @@ body {
     background-color: white;
     font-family: 'Lato', sans-serif;
     text-align: center;
-    color: #2E8B57;
+    color: #49c2b6;
 }
 
 h1, h2, h3 {
@@ -17,3 +17,42 @@ a {
 a:hover {
     color: #2E8B57;
 }
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    font-family: sans-serif;
+    background-color: white; 
+}
+
+header {
+    text-align: center;
+    width: 100%;
+    padding: 20px;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    max-width: 800px;
+    width: 100%;
+}
+
+section {
+    width: 100%;
+    padding: 20px;
+    text-align: center;
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    width: 100%;
+    background-color: rgb(33, 46, 39); 
+}
+
